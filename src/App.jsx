@@ -5,6 +5,7 @@ import CelsiusToFarenheit from './components/celsiusToFarenheit/CelsiusToFarenhe
 import FarenheitToCelsius from './components/farenheitToCelsius/FarenheitToCelsius';
 import SayHello from './components/sayHello/SayHello';
 import TotalPrice from './components/totalPrice/TotalPrice';
+import WriteMessage from './components/writeMessage/WriteMessage';
 
 // {} -> <>
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
 			<CelsiusToFarenheit celsius={20} />
 			<FarenheitToCelsius farenheit={68} />
 			<TotalPrice price={10} />
+			<WriteMessage name='Fernando' material='PVC' size='XXL' note='gracias' />
 		</>
 	);
 };
