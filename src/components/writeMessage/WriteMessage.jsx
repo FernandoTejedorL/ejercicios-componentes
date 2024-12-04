@@ -1,6 +1,4 @@
-const WriteMessage = props => {
-	const { name, material, size, note } = props;
-
+const WriteMessage = ({ name, material, size, note }) => {
 	return (
 		<h2>
 			{name} ha pedido una caja de {material} de tamaño {size}. {note}.
